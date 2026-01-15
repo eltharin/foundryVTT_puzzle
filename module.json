@@ -1,0 +1,25 @@
+{
+  "id": "puzzle",
+  "title": "Puzzles",
+  "description": "A Module that provides puzzle capability.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": 12,
+    "verified": 13
+  },
+  "authors": [{
+    "name": "eltharin",
+    "email": "eltharin18@gmail.com"
+  }],
+  "esmodules": ["modules/main.mjs"],
+  "languages": [{
+    "lang": "fr",
+    "name": "Français",
+    "path": "lang/fr.json"
+  }],
+  "documentTypes": {
+    "Item": {
+      "tornPaper": {}
+    }
+  }
+}
