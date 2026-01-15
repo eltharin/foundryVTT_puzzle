@@ -1,0 +1,9 @@
+<div class="sheet actor-sheet">
+  <input name="name" type="text" value="{{item.name}}" placeholder="Nom de l'animal tutélaire"/>
+  
+  <div data-edit="img" data-prop="system.img">{{ localize "puzzle.sheet.changeImage" }}</div>
+  <img data-prop="system.img" src="{{system.img}}" data-edit="img" title="{{system.name}}" alt="{{system.name}}"/>
+
+
+  <input name="system.name" type="text" value="{{system.name}}" placeholder="Nom"/>
+</div>
