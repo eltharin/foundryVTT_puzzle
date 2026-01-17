@@ -1,6 +1,7 @@
 import { TornPaperModel } from "./TornPaper/TornPaperModel.js";
 import { TornPaperSheet } from "./TornPaper/TornPaperSheet.js";
 import { PuzzleLayer } from "./PuzzleLayer.js";
+import { ExempleCreatorSettings } from "./Exemples/ExempleCreatorSettings.js";
 
 Hooks.on("init", () => {
     
@@ -20,6 +21,13 @@ Hooks.on("init", () => {
         makeDefault: true,
         label: "Morceau de papier"
     });
+
+    game.settings.registerMenu('puzzle', 'exemples', { 
+        name: game.i18n.localize("puzzle.settings.menus.exemple_creation"), 
+        label: game.i18n.localize("puzzle.settings.exemple_creation"), 
+        icon: "fas fa-sitemap", type: ExempleCreatorSettings, restricted: true 
+    });
+    
 });
 
 

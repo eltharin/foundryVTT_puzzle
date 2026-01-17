@@ -4,5 +4,11 @@
   "TYPES.Item.puzzle.tornPaper": "Morceau de papier",
   "puzzle.sheet.changeImage": "Changer image",
   "puzzle.CONTROLS.groupPuzzle": "Puzzle",
-  "puzzle.CONTROLS.addScene": "Ajouter un scene de résolution"
+  "puzzle.CONTROLS.addScene": "Ajouter un scene de résolution",
+  "puzzle.settings.menus.exemple_creation": "Creation des exemples",
+  "puzzle.settings.exemple_creation": "Choix des exemples",
+  "puzzle.settings.form.exemple.ex1": "Exemple 1 (V 0.2.0)",
+  "puzzle.settings.form.exemple.ex2": "Exemple 2 (V 0.2.0)",
+  "puzzle.settings.form.exemple.ex3": "Exemple 3 (V 0.2.0)",
+  "puzzle.settings.form.exemple.submit": "Création des exemples séléctionnés"
 }
